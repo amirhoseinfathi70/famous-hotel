@@ -12,6 +12,7 @@ header {
 }
 /* action bar */
 .action-bar {
+  padding-left: 45px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,6 +45,7 @@ nav ul li {
 
 nav ul a {
   text-decoration: none;
+  font-size: 15px;
 }
 
 nav ul .active::after {
@@ -74,11 +76,13 @@ nav ul a:hover::after {
 
 .btns .sign-up-btn {
   color: #ffff;
+  font-size: 15px;
   text-decoration: none;
 }
 
 .Login-btn {
   background: linear-gradient(108.34deg, #17c2ed 4.55%, #1c7dd7 95.45%);
+  font-size: 15px;
   color: #ffff;
   text-decoration: none;
   width: 128px;
@@ -86,4 +90,81 @@ nav ul a:hover::after {
   padding-top: 15px;
   border-radius: 25px;
   text-align: center;
+}
+
+/* Hero section */
+.Hero-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.indonesia-btn {
+  background-color: #4d566a;
+  color: #a1a5b0;
+  padding: 15px 30px;
+  border-radius: 15px;
+  opacity: 0.25px;
+  text-decoration: none;
+}
+
+.hero-content h1 {
+  color: #ffff;
+  font-size: 55px;
+  padding-top: 40px;
+  font-weight: 600;
+}
+
+.hero-content p {
+  color: #4d566a;
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 37.5px;
+  margin-bottom: 80px;
+}
+
+.hero-content .btn-learn-more {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 600px;
+  background: linear-gradient(108.34deg, #17c2ed 4.55%, #1c7dd7 95.45%);
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 30px 50px;
+}
+
+.hero-image {
+  position: relative;
+}
+
+.hero-image img {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-image img {
+  border-radius: 86px;
+}
+
+.ellipse {
+  position: absolute;
+  top: -50px;
+  right: -80px;
+  width: 747px;
+  height: 747px;
+  background-color: #2e3b8b;
+  border-radius: 100%;
+  opacity: 40%;
+  z-index: 1;
+}
+
+.bubbles {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: -350px;
+  left: 250px;
 }
