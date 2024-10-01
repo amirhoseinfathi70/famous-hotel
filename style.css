@@ -168,3 +168,103 @@ nav ul a:hover::after {
   top: -350px;
   left: 250px;
 }
+
+/* featured */
+.features {
+  padding-top: 50px;
+  margin: 0 50px;
+  position: relative;
+}
+
+.features p {
+  font-size: 30px;
+  font-weight: 600;
+  color: #17c1ed;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 55px;
+  text-align: center;
+}
+
+.hotel {
+  direction: ltr;
+  display: flex;
+  margin: 100px;
+}
+
+.hotel-image img {
+  width: 362px;
+  height: 424px;
+  border-radius: 60px;
+}
+
+.hotel .hotel-info h3 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.hotel .hotel-info p {
+  color: #a1a5b0;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 120px;
+  margin-bottom: 80px;
+}
+
+.hotel-info {
+  text-align: center;
+  margin: 80px 25px;
+}
+
+.hotel-learn-more-btn {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 600px;
+  background: linear-gradient(108.34deg, #17c2ed 4.55%, #1c7dd7 95.45%);
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 20px 50px;
+}
+
+.hotel-right {
+  direction: rtl;
+  display: flex;
+  margin: 100px;
+}
+
+.hotel-info-right h3 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.hotel-info-right p {
+  color: #a1a5b0;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 120px;
+  margin-bottom: 80px;
+}
+
+.hotel-info-right a {
+  margin-right: 150px;
+}
+
+.hotel-bubbles {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  right: -10px;
+}
+
+.hotel-right-bubbles {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: -10px;
+}
